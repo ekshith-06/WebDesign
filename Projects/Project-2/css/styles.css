@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+}
+.container{
+    width: 1440px;
+    max-width: 90%;
+    margin: auto;
+}
+
+header{
+    height: 70px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 26px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+header nav ul li:last-of-type{
+    margin-right:0;
+}
+
+header .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
